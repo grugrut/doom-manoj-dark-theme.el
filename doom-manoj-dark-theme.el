@@ -25,9 +25,59 @@
 
 (def-doom-theme doom-manoj-dark
   "A dark theme from Manoj for doom-theme"
-
-  ;; name     default  256 16
   
+  ;; name          gui       256 16
+  ((bg           '("#000000" nil nil))
+   (bg-alt       '("#4d4d4d" nil nil))
+   (base0        '("#0000ff" nil nil))
+   (base1        '("#b4eeb4" nil nil))
+   (base2        '("#4d4d4d" nil nil))
+   (base3        '("#ffffe0" nil nil))
+   (base4        '("#f5deb3" nil nil))
+   (base5        '("#b3b3b3" nil nil))
+   (base6        '("#b3b3b3" nil nil))
+   (base7        '("#98fb98" nil nil))
+   (base8        '("#ff7f24" nil nil))
+   (fg           '("#f5f5f5" nil nil))
+   (fg-alt       '("#cccccc" nil nil))
+
+   (red          '("#ff0000" nil nil))
+   (grey         '("#a9a9a9" nil nil))
+   (dark-blue    '("#00008b" nil nil))
+   (green        '("#00ff00" nil nil))
+   (blue         '("#0000ff" nil nil))
+   (violet       '("#ee82ee" nil nil))
+   (magenta      '("#ff00ff" nil nil))
+   (yellow       '("#ffff00" nil nil))
+   (orange       '("#ff4500" nil nil))
+   (cyan         '("#00ffff" nil nil))
+   (teal         '("#98fb98" nil nil))
+   (dark-cyan    '("#008b8b" nil nil))
+
+   ;; face categories
+   (region       '("#0000cd" nil nil))
+   (highlight    '("#b4eeb4" nil nil))
+   (vertical-bar '("#696969" nil nil))
+   (error        '("#ffc0cb" nil nil))
+   (warning      '("#ffa500" nil nil))
+   (builtin      '("#b0c4de" nil nil))
+   (comments     '("#ff7f24" nil nil))
+   (doc-comments '("#f08080" nil nil))
+   (constants    '("#b0c4de" nil nil))
+   (functions    '("#00fa9a" nil nil))
+   (keywords     '("#00ffff" nil nil))
+   (strings      '("#ffc1c1" nil nil))
+   (type         '("#63b8ff" nil nil))
+   (variables    '("#7fffd4" nil nil))
+   (operators    '("#6495ed" nil nil))
+   (selection    '("#0000ff" nil nil))
+   (vc-modified  '("#f0e68c" nil nil))
+   (vc-added     '("#00ff00" nil nil))
+   (vc-deleted   '("#ff8c69" nil nil))
+   (methods      '("#00fa9a" nil nil))
+   (numbers      '("#ffa07a" nil nil))
+   
+   )
   ;; --- extra variables --------------------
   ;; ()
   )
