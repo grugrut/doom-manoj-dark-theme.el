@@ -27,17 +27,6 @@
   "A dark theme from Manoj for doom-theme"
 
   ;; name     default  256 16
-  ((bg        black)
-   (fg        WhiteSmoke)
-
-   (grey       base4)
-   (red        red))
-
-  ;; --- extra faces ------------------------
-  ((hl-line :background "grey10" :foreground "Old Lace")
-   
-   ;; --- major-mode faces ------------------
-   )
   
   ;; --- extra variables --------------------
   ;; ()
