@@ -56,14 +56,14 @@
 
    ;; face categories
    (region       '("#0000cd" nil nil))
-   (highlight    '("#b4eeb4" nil nil))
+   (highlight    '("#fdf5e6" nil nil))
    (vertical-bar '("#696969" nil nil))
    (error        '("#ffc0cb" nil nil))
    (warning      '("#ffa500" nil nil))
    (builtin      '("#b0c4de" nil nil))
    (comments     '("#ff7f24" nil nil))
    (doc-comments '("#f08080" nil nil))
-   (constants    '("#b0c4de" nil nil))
+   (constants    '("#8470ff" nil nil))
    (functions    '("#00fa9a" nil nil))
    (keywords     '("#00ffff" nil nil))
    (strings      '("#ffc1c1" nil nil))
@@ -78,6 +78,14 @@
    (numbers      '("#ffa07a" nil nil))
    
    )
+  ;; extra faces
+  ((font-lock-constant-face :foreground constants :bold t)
+   (cursor :background "#da70d6")
+
+   (mode-line-buffer-id :foreground "#ff0000")
+   (which-func :foreground functions)
+   )
+  
   ;; --- extra variables --------------------
   ;; ()
   )
