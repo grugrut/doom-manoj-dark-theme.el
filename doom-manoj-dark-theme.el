@@ -82,8 +82,11 @@
   ((font-lock-constant-face :foreground constants :bold t)
    (cursor :background "#da70d6")
 
+   (mode-line :foreground fg :background "#bfbfbf")
    (mode-line-buffer-id :foreground "#ff0000")
    (which-func :foreground functions)
+   (doom-modeline-bar :background "#0000ff")
+
    )
   
   ;; --- extra variables --------------------
