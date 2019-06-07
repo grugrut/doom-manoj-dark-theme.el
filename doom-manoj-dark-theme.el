@@ -32,7 +32,7 @@
    (base0        '("#0000ff" nil nil))
    (base1        '("#b4eeb4" nil nil))
    (base2        '("#4d4d4d" nil nil))
-   (base3        '("#ffffe0" nil nil))
+   (base3        '("#525252" nil nil))
    (base4        '("#f5deb3" nil nil))
    (base5        '("#b3b3b3" nil nil))
    (base6        '("#b3b3b3" nil nil))
@@ -82,10 +82,12 @@
   ((font-lock-constant-face :foreground constants :bold t)
    (cursor :background "#da70d6")
 
-   (mode-line :foreground fg :background "#bfbfbf")
-   (mode-line-buffer-id :foreground "#ff0000")
+   (mode-line :background "#bfbfbf")
+   (mode-line-buffer-id :inherit :foreground "#ff0000")
    (which-func :foreground functions)
    (doom-modeline-bar :background "#0000ff")
+
+   (magit-section-heading :foreground "LightGoldenrod2" :weight 'bold)
 
    )
   
