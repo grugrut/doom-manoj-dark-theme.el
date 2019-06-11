@@ -88,6 +88,17 @@
    (doom-modeline-bar :background "#0000ff")
 
    (magit-section-heading :foreground "LightGoldenrod2" :weight 'bold)
+   (rainbow-delimiters-depth-1-face :foreground "grey55")
+   (rainbow-delimiters-depth-2-face :foreground "#93a8c6")
+   (rainbow-delimiters-depth-3-face :foreground "#b0b1a3")
+   (rainbow-delimiters-depth-4-face :foreground "#97b098")
+   (rainbow-delimiters-depth-5-face :foreground "#aebed8")
+   (rainbow-delimiters-depth-6-face :foreground "#b0b0b3")
+   (rainbow-delimiters-depth-7-face :foreground "#90a890")
+   (rainbow-delimiters-depth-7-face :foreground "#a2b6da")
+   (rainbow-delimiters-depth-7-face :foreground "#9cb6ad")
+   (rainbow-delimiters-unmatched-face  :foreground "#88090B" :weight 'bold :inverse-video t)
+   (rainbow-delimiters-mismatched-face :inherit 'rainbow-delimiters-unmatched-face)
 
    )
   
