@@ -58,7 +58,7 @@
    (region       '("#0000cd" nil nil))
    (highlight    '("#fdf5e6" nil nil))
    (vertical-bar '("#696969" nil nil))
-   (error        '("#ffc0cb" nil nil))
+   (error        '("#ff4500" nil nil))
    (warning      '("#ffa500" nil nil))
    (builtin      '("#b0c4de" nil nil))
    (comments     '("#ff7f24" nil nil))
@@ -82,10 +82,9 @@
   ((font-lock-constant-face :foreground constants :bold t)
    (cursor :background "#da70d6")
 
-   (mode-line :background "#bfbfbf")
+   (mode-line :background "#bfbfbf" :foreground blue)
    (mode-line-buffer-id :inherit :foreground "#ff0000")
-   (which-func :foreground functions)
-   (doom-modeline-bar :background "#0000ff")
+   (doom-modeline-bar :background blue)
 
    (magit-section-heading :foreground "LightGoldenrod2" :weight 'bold)
    (rainbow-delimiters-depth-1-face :foreground "grey55")
