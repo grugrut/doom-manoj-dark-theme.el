@@ -83,7 +83,8 @@
    (cursor :background "#da70d6")
 
    (mode-line :background "#bfbfbf" :foreground blue)
-   (mode-line-buffer-id :inherit :foreground "#ff0000")
+   (doom-modeline-buffer-file :foreground "#ff0000" :weight 'bold)
+   (doom-modeline-project-dir :foreground magenta)
    (doom-modeline-bar :background blue)
 
    (magit-section-heading :foreground "LightGoldenrod2" :weight 'bold)
