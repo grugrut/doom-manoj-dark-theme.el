@@ -51,7 +51,7 @@
    (yellow       '("#eedd82" nil nil)) ;LightGoldenrod
    (orange       '("#ff7f24" nil nil)) ;chocolate1
    (cyan         '("#00ffff" nil nil)) ;cyan1
-   (teal         '("#98fb98" nil nil))
+   (teal         '("#7fffd4" nil nil)) ;aquamarine
    (dark-cyan    '("#87cefa" nil nil)) ;LightSkyBlue
 
    ;; face categories
@@ -99,6 +99,15 @@
    (rainbow-delimiters-depth-7-face :foreground "#9cb6ad")
    (rainbow-delimiters-unmatched-face  :foreground "#88090B" :weight 'bold :inverse-video t)
    (rainbow-delimiters-mismatched-face :inherit 'rainbow-delimiters-unmatched-face)
+
+   (outline-1 :foreground "#87cafa" :weight 'bold) ;LightSkyBlue
+   (outline-2 :foreground yellow :weight 'bold)
+   (outline-3 :foreground cyan :weight 'bold)
+   (outline-4 :foreground orange :weight 'bold)
+   (outline-5 :foreground green :weight 'bold)
+   (outline-6 :foreground teal :weight 'bold)
+   (outline-7 :foreground "#b0c4de" :weight 'bold)
+   (outline-8 :foreground "#ffa07a" :weight 'bold)
 
    )
   
