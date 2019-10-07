@@ -44,15 +44,15 @@
    (red          '("#ff0000" nil nil))
    (grey         '("#a9a9a9" nil nil))
    (dark-blue    '("#00008b" nil nil))
-   (green        '("#00ff00" nil nil))
+   (green        '("#98fb98" nil nil)) ;PaleGreen
    (blue         '("#0000ff" nil nil))
    (violet       '("#ee82ee" nil nil))
    (magenta      '("#ff00ff" nil nil))
-   (yellow       '("#ffff00" nil nil))
-   (orange       '("#ff4500" nil nil))
-   (cyan         '("#00ffff" nil nil))
+   (yellow       '("#eedd82" nil nil)) ;LightGoldenrod
+   (orange       '("#ff7f24" nil nil)) ;chocolate1
+   (cyan         '("#00ffff" nil nil)) ;cyan1
    (teal         '("#98fb98" nil nil))
-   (dark-cyan    '("#008b8b" nil nil))
+   (dark-cyan    '("#87cefa" nil nil)) ;LightSkyBlue
 
    ;; face categories
    (region       '("#0000cd" nil nil))
